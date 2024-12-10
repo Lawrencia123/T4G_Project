@@ -1,6 +1,7 @@
 .navigation{display: flex;
     justify-content: space-around;
-    
+    padding: 10px;
+    align-self: hover;
 }
 .backgroundimages{
     max-width: fit-content;
@@ -37,4 +38,8 @@ header{
  }
  .ourservice{
     text-align: center;
+    ;
+ }
+ .cname{
+    font-weight: bolder;
  }
