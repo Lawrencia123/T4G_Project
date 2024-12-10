@@ -1,5 +1,6 @@
 .navigation{display: flex;
     justify-content: space-around;
+    
 }
 .backgroundimages{
     max-width: fit-content;
@@ -29,9 +30,11 @@ header{
 } */
  .quote{
    font-family: cursive;
-   font-display: ;
+   text-align: center;
+   background-color: aquamarine;
+   margin-top: auto;
    
  }
- body{
-    
+ .ourservice{
+    text-align: center;
  }
