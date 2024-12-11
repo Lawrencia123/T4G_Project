@@ -1,7 +1,8 @@
-.navigation{display: flex;
+.navigation{
+    display: flex;
     justify-content: space-around;
     padding: 10px;
-    align-self: hover;
+    /* align-self: hover; */
 }
 .backgroundimages{
     max-width: fit-content;
@@ -12,6 +13,9 @@
     padding-bottom: 10%;
     /* width: 50%; */
    mix-blend-mode: multiply;
+   height: 100px;
+   width: 100px;
+   float: left;
 }
 header{
     background-image: url(../images/background4.png);
@@ -38,8 +42,62 @@ header{
  }
  .ourservice{
     text-align: center;
-    ;
+    background-color: rgb(231, 231, 164);
  }
  .cname{
     font-weight: bolder;
  }
+ .image1{
+    /* display: flex; */
+    /* flex-direction: row; */
+   width: 30%;
+   /* height: 200px; */
+    /* margin-top: 50px; */
+ }
+ /*.image1 h4{
+ margin-bottom: 100px;
+    margin-left: 100px;
+ } */
+ .image1 img{
+    width: 100%;
+    height: 230px;
+    /* height: 100%; */
+    /* margin-top: 100px;
+    margin-left: 100px; */
+ }
+ .service-container{
+    display: flex;
+    justify-content: space-between;
+    /* margin-bottom: 200px; */
+    background-color: antiquewhite;
+ }
+
+ /* styling for about us section */
+ .aboutus{
+    display: flex;
+
+ }
+
+ .aboutus p{
+    font-size: larger;
+ }
+.why{
+   text-align: center; 
+}
+ .choose{
+    background-color: azure;
+ }
+ .award{
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(13, 41, 32);
+ }
+ .awardimg{
+   margin:auto;
+   justify-content: space-between;
+   padding: 60px;
+ }
+ footer{
+
+ }
+ 
