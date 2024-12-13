@@ -157,5 +157,33 @@ text-align: center;
  #cname2{
    text-align: right;
  }
-
+ .servheader{
+   background-image: url(../images/img2.avif);
+   background-size: cover;
+   width: 100%;
+   height: 500px;
+   
+ }
+ .sname{
+   color: azure;
+ }
+ .snav{
+   color: azure;
+   display: flex;
+   justify-content: space-around;
+   /* font-style: italic; */
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: large;
+ }
+ .slogo{
+   height: 100px;
+   width: 100px;
+ }
+ .squote{
+   text-align: center;
+   background-color: aquamarine;
+   font-style: cursive;
+   margin-top: auto;
+ }
+ 
 
