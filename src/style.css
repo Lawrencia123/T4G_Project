@@ -176,14 +176,25 @@ text-align: center;
    font-size: large;
  }
  .slogo{
-   height: 100px;
-   width: 100px;
+   height: 200px;
+   width: 300px;
  }
  .squote{
    text-align: center;
    background-color: aquamarine;
    font-style: cursive;
    margin-top: auto;
+ }
+ .sec2{
+   background-color: bisque;
+   display: flex;
+ }
+ .par{
+   font-size:x-large;
+   font-style: inherit;
+ }
+ .sbut{
+   text-align: center;
  }
  
 
