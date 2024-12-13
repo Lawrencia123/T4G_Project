@@ -113,6 +113,9 @@ header{
     float: right;
     height: 100px;
     width: 100px;
+    mix-blend-mode: multiply;
+    padding-left: 100px;
+    
  }
 
  footer{
@@ -128,13 +131,17 @@ width: 100%;
  .cname1{
 text-align: center;
  }
- #cname2{
+ /* #cname2{
    display: inline-flex;
-   float: right; 
- }
+   float: right;
+   padding-right: 50px;
+   padding-inline: 50px;
+   margin-bottom: 0%; 
+ } */
  .cname2{
   display: inline-flex;
   float: right;
+  text-align: left;
  }
 
  .cname3{
@@ -144,7 +151,11 @@ text-align: center;
 
  .cname0{
    float: end;
-   bottom: 50%;
+   bottom: 30%;
+   text-align: center;
+ }
+ #cname2{
+   text-align: right;
  }
 
 
