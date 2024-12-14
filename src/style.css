@@ -198,8 +198,22 @@ text-align: center;
  .sbut{
    text-align: center;
  }
- .snav a{
+ /* .snav a{
   color: gold;
- }
+ } */
+  .ocean{
+    height: 168px;
+    width: 310px;
+  }
+  .all3{
+    display: flex;
+    justify-content: space-around;
+  }
+  .all{
+    background-color: cornsilk;
+  }
+  .ourser{
+    text-align: center;
+  }
  
 
