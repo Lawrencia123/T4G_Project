@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-around;
     padding: 10px;
-  text-decoration:dotted;
+  text-decoration:none;
     /* align-self: hover; */
 }
 /* .backgroundimages{
@@ -26,12 +26,13 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
 }
-.menu{
+/* .menu{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-
-}
+    text-decoration: none;
+    list-style: none;
+} */
 /* .header{
     background-image: url(../images/background4.png);
 } */
@@ -167,13 +168,24 @@ text-align: center;
  .sname{
    color: azure;
  }
- .snav{
+ .snavi{
    color: azure;
    display: flex;
    justify-content: space-around;
    /* font-style: italic; */
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    font-size: large;
+   text-decoration: none;
+   padding: 0 0 0 0;
+   margin: 5px 5px 5px 5px;
+ }
+ .sservice{
+  text-transform: uppercase;
+  text-align: center;
+  font-family: cursive;
+  font-size: x-large;
+  color: rgb(4, 4, 5);
+  margin-top: 100px;
  }
  .slogo{
    height: 100px;
@@ -230,8 +242,11 @@ float: inline-end;
  }
  .anav{
   display: flex;
-  justify-content: space-around;
-  flex-direction: row;
+  justify-content: space-between;
+ flex-direction:row;
+ font-family: cursive;
+ margin: 0px 0px 0px 0px;
+ 
  }
  .logonav{
 display: flex;
@@ -251,4 +266,36 @@ justify-content: space-around;
  /* .sfootercon{
   display: flex;
  } */
+  .snavi{
+    display: flex;
+   justify-content: space-around;
+  }
+  .navibar{
+    list-style: none;
+    padding: 0;
+    display: inline;
+    margin: 0 10px;
 
+  }
+  .button{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+  }
+  .par1{
+    font-size:x-large;
+    font-style: inherit;
+    background-color: antiquewhite;
+    margin-bottom: 0%;
+  }
+  .parbut{
+    background-color: rgb(255, 254, 254);
+  }
+  .logocname{
+    display: flex;
+    /* justify-content: center; */
+  }
+  .contheader{
+    background-image: url(../images/premium_photo-1664910349870-def6b8402912\ copy.avif);
+  }
