@@ -296,6 +296,11 @@ justify-content: space-around;
     display: flex;
     /* justify-content: center; */
   }
-  .contheader{
-    background-image: url(../images/premium_photo-1664910349870-def6b8402912\ copy.avif);
-  }
+  /* .contheader{../images/premium_photo */
+    /* background-image: url(../images\premium_photo-1661963219843-f1a50a6cfcd3.avif); */
+  /* } */
+.cname4{
+  display: flex; 
+  flex-wrap: wrap;
+  
+}
